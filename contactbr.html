@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="danielavatar.png" type="image/x-icon">
+    <meta property="og:image" content="https://imgur.com/qL9VvZn.jpeg">
+    <meta property="og:title" content="daniel website">
+    <meta property="og:description" content="The website with information about daniel95479, Scripter and UI Designer.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daniel95479</title>
+</head>
+
+<body>
+    <div id="categorias">
+        <ul>
+            <li>
+                <a href="homebr.html">INÍCIO</a>
+                <a href="aboutmebr.html">SOBRE MIM</a>
+                <p style="background-color: gray; color: white">CONTATO</p>
+                <p style="background-color: gray; color: black;"><img style="height: 20px;" src="brasil.jpeg"
+                        alt="PT-BR"></p>
+                <a href="contact.html"><img style="height: 20px;" src="estadosunidos.jpeg" alt="EN"></a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="contact" style="text-align: center;">
+        <p>Detalhes de contato</p>
+        <p style="color: white; font-family: Arial, Helvetica, sans-serif; margin: auto;"><img id="imagemcontato"
+                src="email.png" alt="Email"> Email:
+            <span style="display: block;">daniel95479@gmail.com</span>
+        </p>
+        <button onclick="copiaremail()" style="border: 0px; background-color: black; display: inline-block;">
+            <img style="height: 45px;" src="copiaricone.png" alt="Copy Email">
+        </button>
+
+        <p style="color: white; font-family: Arial, Helvetica, sans-serif; margin: auto;"><img id="imagemcontato"
+                src="discord.png" alt="Discord"> Discord: <span style="display: block;"><a
+                    href="https://discord.gg/7vWHysn9Gt" target="_blank"
+                    style="text-decoration: none; color: darkblue;">https://discord.gg/7vWHysn9Gt</a></span></p>
+
+        <button onclick="copiardiscord()" style="border: 0px; background-color: black; display: inline-block;">
+            <img style="height: 45px;" src="copiaricone.png" alt="Copy Email">
+        </button>
+
+        <p style="color: white; font-family: Arial, Helvetica, sans-serif; margin: auto;"><img id="imagemcontato"
+                src="github.png" alt="Github"> Github: <span style="display: block;"><a
+                    href="https://github.com/daniel95479" target="_blank"
+                    style="text-decoration: none; color: gray;">https://github.com/daniel95479</a></span></p>
+
+        <button onclick="copiargithub()" style="border: 0px; background-color: black; display: inline-block;">
+            <img style="height: 45px;" src="copiaricone.png" alt="Copy Email">
+        </button>
+
+        <p style="color: white; font-family: Arial, Helvetica, sans-serif; margin: auto;"><img id="imagemcontato"
+                src="twitterlogo.png" alt="Twiiter"> Twitter: <span style="display: block;"><a
+                    href="https://twitter.com/daniel95479" target="_blank"
+                    style="text-decoration: none; color: gray;">https://twitter.com/daniel95479</a></span></p>
+
+        <button onclick="copiartwitter()" style="border: 0px; background-color: black; display: inline-block;">
+            <img style="height: 45px;" src="copiaricone.png" alt="Copy Email">
+        </button>
+    </div>
+
+    <footer id="rodape">
+        <p>Website feito por daniel 95479</p>
+    </footer>
+
+    <script>
+        function copiaremail() {
+            var textoParaCopiar = "daniel95479@gmail.com";
+            var elementoTemporario = document.createElement("textarea");
+            elementoTemporario.value = textoParaCopiar;
+            document.body.appendChild(elementoTemporario);
+            elementoTemporario.select();
+            document.execCommand("copy");
+            document.body.removeChild(elementoTemporario);
+            alert("Email copiado para área de transferência");
+        }
+        function copiargithub() {
+            var textoParaCopiar = "https://github.com/daniel95479/website";
+            var elementoTemporario = document.createElement("textarea");
+            elementoTemporario.value = textoParaCopiar;
+            document.body.appendChild(elementoTemporario);
+            elementoTemporario.select();
+            document.execCommand("copy");
+            document.body.removeChild(elementoTemporario);
+            alert("Github copiado para área de transferência");
+        }
+        function copiartwitter() {
+            var textoParaCopiar = "https://twitter.com/daniel95479";
+            var elementoTemporario = document.createElement("textarea");
+            elementoTemporario.value = textoParaCopiar;
+            document.body.appendChild(elementoTemporario);
+            elementoTemporario.select();
+            document.execCommand("copy");
+            document.body.removeChild(elementoTemporario);
+            alert("Twitter copiado para área de transferência");
+        }
+        function copiardiscord() {
+            var textoParaCopiar = "https://discord.gg/7vWHysn9Gt";
+            var elementoTemporario = document.createElement("textarea");
+            elementoTemporario.value = textoParaCopiar;
+            document.body.appendChild(elementoTemporario);
+            elementoTemporario.select();
+            document.execCommand("copy");
+            document.body.removeChild(elementoTemporario);
+            alert("Discord copiado para área de transferência");
+        }
+    </script>
+</body>
+
+</html>

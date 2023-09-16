@@ -1,0 +1,492 @@
+@font-face {
+    font-family: "auto-waves";
+    src: url(auto-waves.ttf);
+}
+
+@font-face {
+    font-family: "bisdak";
+    src: url(Bisdak.ttf);
+}
+
+@font-face {
+    font-family: "chinois";
+    src: url(Chinois.ttf);
+}
+
+@font-face {
+    font-family: "dune_rise";
+    src: url(Dune_Rise.otf);
+}
+
+@font-face {
+    font-family: "freehand";
+    src: url(freehand.otf);
+}
+
+@font-face {
+    font-family: "homepage";
+    src: url(HomepageBaukasten-Book.ttf);
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.textoprojects {
+    font-family: "homepage";
+    transition: 0.5s;
+    margin: auto; 
+    font-size: 225%;
+}
+
+#projects {
+    background-color: white; 
+    padding: 50px 0; 
+    width: 90%; 
+    margin: auto; 
+    margin-top: 50px; 
+    border-radius: 100px; 
+    justify-content: center; 
+    text-align: center;
+    border: 4px dashed gray;
+}
+
+#categorias {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 40px 0;
+    transition: 0.5s;
+}
+
+#categorias ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: black;
+    margin: 0 40px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#categorias ul li {
+    margin: 0;
+    transition: 0.5s;
+}
+
+#categorias ul li a {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "dune_rise";
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    margin: 0 20px 0 20px;
+    padding: 20px 20px;
+    font-size: xx-large;
+    transition: 0.5s;
+}
+
+#categorias ul li p {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "dune_rise";
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    margin: 0 20px 0 20px;
+    padding: 20px 20px;
+    font-size: xx-large;
+    transition: 0.5s;
+}
+
+#categorias ul li a:hover {
+    background-color: white;
+    color: black;
+    padding: 30px 30px;
+    transition: 0.5s;
+}
+
+#contact p {
+    font-family: "bisdak";
+    color: white;
+    font-size: x-large;
+    transition: 0.5s;
+}
+
+#contact li ul {
+    font-family: "homepage";
+    color: white;
+    transition: 0.5s;
+}
+
+#imagemcontato {
+    display: inline-block;
+    height: 40px;
+    position: absolute;
+    transform: translate(-110%, -20%);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#rodape {
+    text-align: center;
+    width: 62.5%;
+    margin: auto;
+    margin-top: 100%;
+    margin-bottom: -10px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+
+#rodape p {
+    border: solid 1px black;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    background-color: white;
+    font-size: medium;
+    border-radius: 10px;
+    font-family: "dune_rise";
+    transition: 0.5s;
+}
+
+#linkslinguagens {
+    margin: auto; 
+    text-align: center;
+    font-family: "homepage";
+    font-size: xx-large;
+    width: 90%;
+    transition: 0.5s;
+}
+
+#textoaboutme1 {
+    margin: auto; 
+    text-align: center;
+    font-family: "homepage";
+    font-size: xx-large;
+    width: 90%;
+    transition: 0.5s;
+}
+
+#apresentacaoinicial {
+    background-color: rgb(63, 0, 0); 
+    padding: 5px 0; 
+    width: 75%; 
+    margin: auto;
+    margin-top: 50px; 
+    border-radius: 10px; 
+    justify-content: center; 
+    text-align: center; 
+    border: 4px solid rgb(255, 0, 0);
+    transition: 0.5s;
+}
+
+#apresentacaoinicial p {
+    font-family: "homepage";
+    font-size: xx-large;
+    color: white;
+    transition: 0.5s;
+}
+
+#importantinformations {
+    font-family: "homepage";
+    transition: 0.5s;
+    background-color: white;
+    padding: 50px 0; 
+    width: 85%; 
+    margin: auto; 
+    margin-top: 50px; 
+    border-radius: 100px; 
+    justify-content: center; 
+    text-align: center; 
+    border: 4px dashed gray;
+}
+
+#importantinformations p {
+    text-align: center;
+    font-family: "homepage";
+    font-size: xx-large;
+    transition: 0.5s;
+    border: 2px solid black;
+    padding: 20px; 
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px; 
+    display: inline-block; 
+    border-radius: 20px;
+}
+
+#updates {
+    font-family: "homepage";
+    font-size: xx-large;
+    transition: 0.5s;
+    background-color: white;
+    padding: 50px 0; 
+    width: 85%; 
+    margin: auto; 
+    margin-top: 50px; 
+    border-radius: 100px; 
+    justify-content: center; 
+    text-align: center; 
+    border: 4px dashed gray;
+}
+
+#updates p {
+    font-family: "homepage";
+    font-size: xx-large;
+    transition: 0.5s;
+    border: 2px solid black;
+    padding: 20px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px; 
+    display: inline-block; 
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 350px) {
+
+    .textoprojects {
+        font-family: "homepage";
+        transition: 0.5s;
+        margin: auto; 
+        font-size: 125%;
+    }
+    
+    #projects {
+        background-color: white; 
+        padding: 50px 0; 
+        width: 85%; 
+        margin: auto; 
+        margin-top: 50px; 
+        border-radius: 100px; 
+        justify-content: center; 
+        text-align: center;
+        border: 4px dashed gray;
+        transition: 0.5s;
+    }
+    
+    #categorias {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        background-color: white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 40px 0;
+        transition: 0.5s;
+    }
+    
+    #categorias ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        background-color: black;
+        margin: 0 40px;
+        padding: 20px;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+    
+    #categorias ul li {
+        margin: 0;
+        transition: 0.5s;
+    }
+    
+    #categorias ul li a {
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        font-family: "dune_rise";
+        border: 1px solid white;
+        color: white;
+        border-radius: 20px;
+        margin: 0 20px 0 20px;
+        padding: 5px 5px;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    
+    #categorias ul li p {
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        font-family: "dune_rise";
+        border: 1px solid white;
+        color: white;
+        border-radius: 20px;
+        margin: 0 20px 0 20px;
+        padding: 5px 5px;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    
+    #categorias ul li a:hover {
+        background-color: white;
+        color: black;
+        padding: 10px 10px;
+        transition: 0.5s;
+    }
+    
+    #contact p {
+        font-family: "bisdak";
+        color: white;
+        font-size: 15px;
+        transition: 0.5s;
+    }
+    
+    #contact li ul {
+        font-family: "homepage";
+        color: white;
+        transition: 0.5s;
+    }
+    
+    #imagemcontato {
+        display: inline-block;
+        height: 25px;
+        position: absolute;
+        transform: translate(-110%, -20%);
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+    
+    #rodape {
+        text-align: center;
+        width: 62.5%;
+        margin: auto;
+        margin-top: 100%;
+        margin-bottom: -10px;
+        background-color: white;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding-top: 25px;
+        transition: 0.5s;
+    }
+    
+    #rodape p {
+        border: solid 1px black;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+        width: 80%;
+        background-color: white;
+        font-size: medium;
+        border-radius: 10px;
+        font-family: "dune_rise";
+        transition: 0.5s;
+    }
+    
+    #linkslinguagens {
+        margin: auto; 
+        text-align: center;
+        font-family: "homepage";
+        font-size: xx-large;
+        width: 90%;
+        transition: 0.5s;
+    }
+    
+    #textoaboutme1 {
+        margin: auto; 
+        text-align: center;
+        font-family: "homepage";
+        font-size: xx-large;
+        width: 90%;
+        transition: 0.5s;
+    }
+    
+    #apresentacaoinicial {
+        background-color: rgb(63, 0, 0); 
+        padding: 5px 0; 
+        width: 95%; 
+        margin: auto;
+        margin-top: 50px; 
+        border-radius: 10px; 
+        justify-content: center; 
+        text-align: center; 
+        border: 4px solid rgb(255, 0, 0);
+        transition: 0.5s;
+    }
+    
+    #apresentacaoinicial p {
+        font-family: "homepage";
+        font-size: xx-large;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    #importantinformations {
+        font-family: "homepage";
+        transition: 0.5s;
+        background-color: white;
+        padding: 50px 0; 
+        width: 90%; 
+        margin: auto; 
+        margin-top: 50px; 
+        border-radius: 100px; 
+        justify-content: center; 
+        text-align: center; 
+        border: 4px dashed gray;
+    }
+    
+    #importantinformations p {
+        text-align: center;
+        font-family: "homepage";
+        font-size: x-large;
+        transition: 0.5s;
+        border: 1px solid black;
+        padding: 0px; 
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 10px; 
+        display: inline-block; 
+        border-radius: 20px;
+    }
+    
+    #updates {
+        font-family: "homepage";
+        font-size: larger;
+        transition: 0.5s;
+        background-color: white;
+        padding: 50px 0; 
+        width: 85%; 
+        margin: auto; 
+        margin-top: 50px; 
+        border-radius: 100px; 
+        justify-content: center; 
+        text-align: center; 
+        border: 4px dashed gray;
+    }
+    
+    #updates p {
+        font-family: "homepage";
+        font-size: x-large;
+        transition: 0.5s;
+        border: 1px solid black;
+        padding: 10px; 
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 10px; 
+        display: inline-block; 
+        border-radius: 20px;
+    }
+}
